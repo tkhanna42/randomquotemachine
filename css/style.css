@@ -1,0 +1,53 @@
+body {
+  background-color: #212121;
+  color: #fff;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+.container-fluid {
+  
+  background-color: #424242;
+  margin: 10px auto;
+  border: 2rem double #000;
+  
+  padding: 30px 30px;
+}
+
+
+
+h3, span, p, button {
+  font-size: 2em;
+}
+
+h6 {
+  text-align: right;
+  font-family: cursive;
+}
+
+.btn-group {
+  display: flex;
+  width:50%;
+  margin: 20px auto;
+}
+
+.btn-primary, .btn-primary:focus {
+  background: #424242;
+  border: 3px solid #000;
+  
+}
+.btn-primary:hover {
+  background: #000;
+  border: 3px double #000;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+button {
+  height: 50px;
+  width:50px;
+}
